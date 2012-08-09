@@ -1,0 +1,102 @@
+<_>
+   <form_key>Z9ZJwL94R4Mt03Uw</form_key>
+   <name>Omikron_ExportExtension</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+      <version_ids>1</version_ids>
+   </version_ids>
+   <summary>This module extends the dataflow module, so categories can be added to the product export.</summary>
+   <description>This module extends the dataflow module. It contains a parser, which can be used by an advanced profile. This &quot;parser&quot; has this features:
+- adding category names to the product export
+- removing html tags
+- removing linebreaks from the content
+- adding absolute image and product links
+This module only can be used to export product data. See the Documentation for more details.
+
+You find a full documentation here:
+http://www.magentocommerce.com/boards/viewthread/60113/
+(English Version)
+
+http://www.magentocommerce.com/boards/viewthread/60111/
+(German Version)</description>
+   <license>OSL</license>
+   <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
+   <version>1.2.4</version>
+   <stability>stable</stability>
+   <notes>rebuild for connect2.0</notes>
+   <authors>
+      <name>
+         <name>Rudolf Batt</name>
+      </name>
+      <user>
+         <user>rbatt</user>
+      </user>
+      <email>
+         <email>rb@omikron.net</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.6</depends_php_min>
+   <depends_php_max>6.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>    </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>PDO</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mage</target>
+      </target>
+      <path>
+         <path/>
+         <path>Omikron/ExportExtension</path>
+         <path>cron_export.php</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+   <page>1</page>
+   <limit>200</limit>
+   <folder/>
+   <package/>
+</_>

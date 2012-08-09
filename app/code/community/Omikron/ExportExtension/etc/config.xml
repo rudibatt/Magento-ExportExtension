@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Omikron_ExportExtension>
+            <version>1.2.3</version>
+        </Omikron_ExportExtension>
+    </modules>
+    
+    <global>
+		<models>
+            <exportextension>
+                <class>Omikron_ExportExtension_Model</class>
+            </exportextension>
+        </models>
+    </global>
+</config>
