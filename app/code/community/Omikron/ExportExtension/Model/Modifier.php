@@ -94,7 +94,7 @@ class Omikron_ExportExtension_Model_Modifier extends Mage_Dataflow_Model_Convert
 		foreach ($batchExportIds as $batchExportId) {
             $batchExport->load($batchExportId);
             $row = $batchExport->getBatchData();
-			
+			$product->reset();
 			$product->load($productIds[$productCounter]);
 			
 			if ($addCategories) {
