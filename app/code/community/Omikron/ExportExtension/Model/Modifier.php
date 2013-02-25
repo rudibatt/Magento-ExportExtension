@@ -177,7 +177,7 @@ class Omikron_ExportExtension_Model_Modifier extends Mage_Dataflow_Model_Convert
 	private function _getFirstCategoryLevel()
 	{
 		if (!$this->_firstCategoryLevel) {
-			$this->_firstCategoryLevel = intval($this->getVar('first_category_level', 1));
+			$this->_firstCategoryLevel = intval($this->getVar('category_first_level', 1));
 		}
 		return $this->_firstCategoryLevel;
 	}
