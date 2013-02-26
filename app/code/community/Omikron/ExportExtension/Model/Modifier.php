@@ -199,7 +199,7 @@ class Omikron_ExportExtension_Model_Modifier extends Mage_Dataflow_Model_Convert
 			if ($category->getIsActive() != 1) {
                 //if is not active, do nothing => add empty string as "path"
             } else if ($firstLevel == -1) {
-				//if first_category_level is -1, only export the category name
+				//if category_first_level is -1, only export the category name
 				$categoryPath = $category->getName();
 			} else {
 				//if first_category_level is not -1, export path, starting from 'path_category_level'
