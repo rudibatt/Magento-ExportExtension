@@ -6,6 +6,4 @@ This module extends the dataflow module. It contains a parser, which can be used
 * removing linebreaks from the content
 * adding absolute image and product links
 
-This module only can be used to export product data. See the Documentation for more details: 
-[English Documentation] (http://www.magentocommerce.com/boards/viewthread/60113/)
-[German Documentation] (http://www.magentocommerce.com/boards/viewthread/60111/)
+This module only can be used to export product data. See the [documentation](https://github.com/rudibatt/Magento-ExportExtension/wiki/Usage) for more details.
